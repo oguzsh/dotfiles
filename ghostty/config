@@ -1,0 +1,32 @@
+# Font
+font-family = MesloLGS Nerd Font Mono
+font-size = 16
+
+# Theme
+theme = Catppuccin Mocha
+
+# Window
+macos-option-as-alt=true
+window-padding-balance=true
+window-save-state=always
+macos-titlebar-style=transparent
+
+# Clipboard
+copy-on-select=clipboard
+
+# Mouse/Cursor
+mouse-hide-while-type=true
+
+# Scroll
+scrollback-limit=10000
+
+# Shell
+shell-integration = zsh
+shell-integration-features = cursor,sudo,title
+command=zsh
+
+# Keybindings
+config-file = "keybindings.toml"
+
+# Notifications
+desktop-notifications = true
