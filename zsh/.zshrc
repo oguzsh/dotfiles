@@ -1,17 +1,12 @@
 # Path to your dotfiles
 export DOTFILES=$HOME/.dotfiles
 
-# Path to Oh-My-Zsh
-export ZSH="$HOME/.oh-my-zsh"
-
 ##############################################################
 # Zinit and Plugins
 ##############################################################
 
 ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
 source "${ZINIT_HOME}/zinit.zsh"
-
-zinit light ohmyzsh/ohmyzsh
 
 zinit snippet OMZP::git
 zinit snippet OMZP::aws
@@ -74,11 +69,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Custom folder
 ##############################################################
 ZSH_CUSTOM=$DOTFILES
-
-##############################################################
-# Oh-My-Zsh
-##############################################################
-source $ZSH/oh-my-zsh.sh
 
 ##############################################################
 # Oh-My-Posh

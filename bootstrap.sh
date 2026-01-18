@@ -48,12 +48,6 @@ echo "Setting up symlinks..."
 rm -rf $HOME/.zshrc
 ln -sf $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
 
-# Install Oh-My-Zsh if not exists
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
-  echo "Installing Oh-My-Zsh..."
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-fi
-
 # Download Zinit, if it's not there yet
 if [ ! -f "$HOME/.local/share/zinit/zinit.git/zinit.zsh" ]; then
   echo "Installing Zinit..."
