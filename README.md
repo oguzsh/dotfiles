@@ -6,7 +6,7 @@ Personal dotfiles for macOS/Linux/WSL.
 
 ```sh
 # Clone to home directory
-git clone https://github.com/oguzsh/.dotfiles.git ~/.dotfiles
+git clone git@github.com:oguzsh/dotfiles.git ~/.dotfiles
 
 # Run bootstrap
 cd ~/.dotfiles
@@ -57,3 +57,4 @@ pbcopy < ~/.ssh/id_ed25519.pub
 - zsh-autosuggestions
 - fzf-tab
 - OMZP::git, aws, python, rust, ruby, rails
+
