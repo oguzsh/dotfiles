@@ -81,10 +81,9 @@ eval "$(oh-my-posh init zsh --config $DOTFILES/oh-my-posh/theme.omp.json)"
 eval "$(zoxide init zsh)"
 
 ##############################################################
-# Language settings
+# FZF
 ##############################################################
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
+source <(fzf --zsh)
 
 ##############################################################
 # Custom configs
