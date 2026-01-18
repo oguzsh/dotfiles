@@ -1,5 +1,6 @@
 # Core tools
 brew "zsh"
+brew "autoenv"
 brew "tree-sitter"
 brew "node"
 brew "ripgrep"
