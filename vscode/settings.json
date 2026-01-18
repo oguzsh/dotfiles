@@ -1,0 +1,127 @@
+{
+	// ============================
+	// Editor Appearance & Behavior
+	// ============================
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Google Sans Code, 'monospace', monospace",
+	"editor.fontSize": 16,
+	"editor.fontWeight": "400",
+	"editor.lineHeight": 28,
+	"editor.letterSpacing": 1,
+	"editor.cursorStyle": "line",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.tabSize": 2,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.linkedEditing": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.accessibilitySupport": "off",
+	"editor.wordWrapColumn": 160,
+	"editor.folding": true,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": false,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": false,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.cursorBlinking": "solid",
+	"editor.glyphMargin": true,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.unicodeHighlight.allowedCharacters": {
+		"a": true,
+		"c": true,
+		"T": true,
+		"б": true,
+		"е": true
+	},
+	"editor.lineNumbers": "relative",
+	// ============================
+	// Formatter Settings
+	// ============================
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSaveMode": "file",
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+	// ============================
+	// File Handling & Cleanup
+	// ============================
+	"files.autoSave": "afterDelay",
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	"files.associations": {
+		"*.scss": "sass",
+		"*.module.scss": "sass"
+	},
+	// ============================
+	// Terminal Settings
+	// ============================
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontFamily": "Google Sans Code, 'monospace', monospace",
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.tabs.enabled": false,
+	// ============================
+	// Workbench UI & Theme
+	// ============================
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.iconTheme": "catppuccin-mocha",
+	"workbench.startupEditor": "none",
+	"workbench.sideBar.location": "right",
+	"workbench.list.horizontalScrolling": true,
+	"workbench.commandPalette.preserveInput": true,
+	"workbench.quickOpen.preserveInput": true,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.editor.enablePreviewFromCodeNavigation": false,
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.limit.value": 8,
+	"workbench.editor.wrapTabs": true,
+	// ============================
+	// Language-specific Settings
+	// ============================
+	// Javascript / Typescript
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "double",
+	"javascript.preferences.quoteStyle": "double",
+	"javascript.format.semicolons": "insert",
+	"typescript.format.semicolons": "insert",
+	"typescript.suggest.paths": false,
+	"javascript.suggest.paths": false,
+	// ============================
+	// Git & GitHub Integration
+	// ============================
+	"git.enableSmartCommit": true,
+	"git.openRepositoryInParentFolders": "always",
+	// ============================
+	// Linting / Formatting / Validation
+	// ============================
+	"eslint.format.enable": true,
+	"eslint.ignoreUntitled": true,
+	// ============================
+	// Privacy & Security
+	// ============================
+	"security.workspace.trust.untrustedFiles": "open",
+	"security.promptForLocalFileProtocolHandling": false,
+	// ============================
+	// Explorer Settings
+	// ============================
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"typescript.tsserver.maxTsServerMemory": 16384,
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	}
+}
