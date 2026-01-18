@@ -1,0 +1,12 @@
+{
+  "name": "ruby-lsp",
+  "version": "0.1.0",
+  "description": "Modern Ruby language server by Shopify",
+  "author": {
+    "name": "Piebald LLC",
+    "email": "support@piebald.ai"
+  },
+  "repository": "https://github.com/Shopify/ruby-lsp",
+  "license": "MIT",
+  "keywords": ["ruby", "lsp", "language-server"]
+}

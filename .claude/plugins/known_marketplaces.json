@@ -1,0 +1,18 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/anthropics/claude-plugins-official.git"
+    },
+    "installLocation": "/home/oguzsh/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-01-18T17:46:52.814Z"
+  },
+  "claude-code-lsps": {
+    "source": {
+      "source": "github",
+      "repo": "Piebald-AI/claude-code-lsps"
+    },
+    "installLocation": "/home/oguzsh/.claude/plugins/marketplaces/claude-code-lsps",
+    "lastUpdated": "2026-01-18T17:12:45.431Z"
+  }
+}

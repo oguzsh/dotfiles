@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "plugins": {
+    "hookify@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh/.dotfiles",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-plugins-official/hookify/96276205880a",
+        "version": "96276205880a",
+        "installedAt": "2026-01-18T17:13:33.310Z",
+        "lastUpdated": "2026-01-18T17:45:41.149Z",
+        "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-plugins-official/context7/96276205880a",
+        "version": "96276205880a",
+        "installedAt": "2026-01-18T17:15:01.387Z",
+        "lastUpdated": "2026-01-18T17:46:53.400Z",
+        "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-18T17:15:01.387Z",
+        "lastUpdated": "2026-01-18T17:46:53.400Z",
+        "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
+      }
+    ],
+    "pyright-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-18T17:15:01.387Z",
+        "lastUpdated": "2026-01-18T17:46:53.400Z",
+        "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
+      }
+    ],
+    "basedpyright@claude-code-lsps": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-code-lsps/basedpyright/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-01-18T17:15:01.387Z",
+        "lastUpdated": "2026-01-18T17:46:53.400Z",
+        "gitCommitSha": "3b974bd45aa600db9c4d0385419e900af35ea24c"
+      }
+    ],
+    "ruby-lsp@claude-code-lsps": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-code-lsps/ruby-lsp/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-01-18T17:15:01.387Z",
+        "lastUpdated": "2026-01-18T17:46:53.400Z",
+        "gitCommitSha": "3b974bd45aa600db9c4d0385419e900af35ea24c"
+      }
+    ],
+    "vtsls@claude-code-lsps": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-code-lsps/vtsls/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-01-18T17:15:01.387Z",
+        "lastUpdated": "2026-01-18T17:46:53.400Z",
+        "gitCommitSha": "3b974bd45aa600db9c4d0385419e900af35ea24c"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/oguzsh",
+        "installPath": "/home/oguzsh/.claude/plugins/cache/claude-plugins-official/superpowers/4.0.3",
+        "version": "4.0.3",
+        "installedAt": "2026-01-18T17:15:03.426Z",
+        "lastUpdated": "2026-01-18T17:46:53.400Z",
+        "gitCommitSha": "a08f088968d0789a44a4f5f5f7d8d6bbe46a0b44"
+      }
+    ]
+  }
+}
