@@ -1,5 +1,8 @@
 # .dotfiles
 
+> [!CAUTION]
+> This setup will remove all your current local setup then replace with the new ones.
+
 Personal dotfiles for macOS/Linux/WSL.
 
 ## Quick Start
@@ -57,4 +60,5 @@ pbcopy < ~/.ssh/id_ed25519.pub
 - zsh-autosuggestions
 - fzf-tab
 - OMZP::git, aws, python, rust, ruby, rails
+
 
