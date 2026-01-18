@@ -15,8 +15,14 @@ if ! command -v brew &> /dev/null; then
   echo "Installing Homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+  # macOS uses /opt/homebrew, Linux uses /home/linuxbrew
+  if [ "$OS" = "Darwin" ]; then
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  else
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $HOME/.zprofile
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+  fi
 fi
 
 # Update Homebrew
@@ -49,9 +55,10 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
 fi
 
 # Download Zinit, if it's not there yet
-if [ ! -d "$HOME/.local/share/zinit" ]; then
-   mkdir -p "$HOME/.local/share/zinit"
-   git clone https://github.com/zdharma-continuum/zinit.git "$HOME/.local/share/zinit"
+if [ ! -f "$HOME/.local/share/zinit/zinit.git/zinit.zsh" ]; then
+  echo "Installing Zinit..."
+  mkdir -p "$HOME/.local/share/zinit"
+  git clone https://github.com/zdharma-continuum/zinit.git "$HOME/.local/share/zinit/zinit.git"
 fi
 
 rm -rf $HOME/.zprofile
