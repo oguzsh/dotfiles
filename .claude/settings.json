@@ -1,0 +1,24 @@
+{
+	"permissions": {
+		"defaultMode": "plan"
+	},
+	"model": "opus",
+	"statusLine": {
+		"type": "command",
+		"command": "npx -y @owloops/claude-powerline@latest --style=powerline"
+	},
+	"enabledPlugins": {
+		"context7@claude-plugins-official": true,
+		"typescript-lsp@claude-plugins-official": true,
+		"pyright-lsp@claude-plugins-official": true,
+		"superpowers@claude-plugins-official": true,
+		"claude-mem@thedotmack": true,
+		"basedpyright@claude-code-lsps": true,
+		"ruby-lsp@claude-code-lsps": true,
+		"vtsls@claude-code-lsps": true
+	},
+	"fileSuggestion": {
+		"type": "command",
+		"command": "~/.claude/file-suggestion.sh"
+	}
+}
